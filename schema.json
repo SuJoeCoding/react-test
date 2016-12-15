@@ -1,0 +1,35 @@
+{
+  "formData": {
+    "good": {
+      "group": "选项卡名称",
+      "title": "表单名称",
+      "fields": [
+        {
+          "name": "id",
+          "title": "商品ID",
+          "type": "string"
+        },
+        {
+          "name": "image",
+          "title": "图片（宽xx，高xxx）",
+          "type": "image"
+        },
+        {
+          "name": "theme",
+          "title": "主题",
+          "type": "select",
+          "data": {
+            "normal": "普通",
+            "pink": "西瓜红"
+          }
+        }
+      ],
+      "minRow": 1,
+      "maxRow": 5,
+      "models": [
+        {}
+      ]
+    }
+  },
+  "pluginData": {}
+}
