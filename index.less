@@ -1,1 +1,37 @@
-.MCUBE_MOD_ID_XXX {}
+@import 'style/swiper.less';
+@rem: 100rem;
+.MCUBE_MOD_ID_XXX {
+
+  .swiper-container {
+    width: 100%;
+    background: #fff;
+    .circle-list {
+      position: absolute;
+      bottom: 16/@rem;
+      left: 16/@rem;
+      z-index: 2;
+      .swiper-pagination-bullet {
+        background: #fff;
+        width: 14/@rem;
+        height: 14/@rem;
+        border-radius: 50%;
+        opacity: 1;
+      }
+      .swiper-pagination-bullet-active {
+        background: #FF5777
+      } 
+    }
+    .swiper-pagination {
+      
+    }
+  }
+
+  .swiper-slide {
+    height: 380/@rem;    
+    background-size: cover;
+    background-repeat: no-repeat;    
+  }
+
+
+
+}

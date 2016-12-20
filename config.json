@@ -5,5 +5,8 @@
 	"author": "suqiao",
 	"label": "h5_common_others_videoBanner",
 	"template": "h5-default",
-	"versionId": "1.0.1"
+	"versionId": "1.0.1",
+	"concatJs": [
+		"./src/h5_common_others_videoBanner/mod/swiper.jquery.min.js"			
+	] 
 }
