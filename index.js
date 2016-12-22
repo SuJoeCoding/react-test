@@ -20,6 +20,8 @@ require([
       fetchBanner().then(
         function (data) {
 
+          _this.data = data;
+
           _this.render(data);
 
           _this.cacheDom();
@@ -38,7 +40,7 @@ require([
 
       var mySwiper = new Swiper('.swiper-container', {
         direction: 'horizontal',
-        loop: true,
+        loop: (this.data.data.banners.length === 1) ? false : true,
         autoplay: '4000',
         pagination: '.circle-list'
       });
