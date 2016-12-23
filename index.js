@@ -5,8 +5,6 @@ require([
   'MCUBE_MOD_ID_XXX:banner.tpl'
 ], function(MoGu, MWP, Tips, bannerTpl) {
 
-  MWP.setGlobalEnv(MWP.Env.PreRelease);
-
   var videoBanner = {
 
     init: function () {
